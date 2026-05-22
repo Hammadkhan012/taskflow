@@ -8,10 +8,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npx serve -s build -l 3000",
     "build": "react-scripts build"
   },
   "browserslist": {
@@ -26,7 +27,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000",
   "devDependencies": {
     "typescript": "^4.9.5"
   }
